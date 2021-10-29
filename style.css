@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 2% 10%;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.titolo{
+    height: 100px;
+    background-color: violet;
+}
+
+.container-1{
+    margin: 2% 0;
+    background-color: khaki;
+    height: 300px;
+}
+
+.testa{
+    height: 100px;
+    background-color: lightblue;
+    
+}
+
+.corpo{
+    background-color: dodgerblue;
+}
+
+.col{
+    height: 300px;
+    float: left;
+    background-color: lightblue;
+}
+
+.sinistra{
+    width: 24%;
+    margin: 1% 0;
+
+}
+
+.centro{
+    width: 50%;
+    margin: 1% 1%;
+}
+
+.destra{
+    width: 24%;
+    margin: 1% 0;
+}
+
+.piede{
+    height: 50px;
+    width: 100%;
+    background-color: darkviolet;
+    margin-top: 2%;
+}
