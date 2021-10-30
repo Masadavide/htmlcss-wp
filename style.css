@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 *{
     padding: 0;
@@ -8,7 +8,7 @@
 }
 
 .container{
-    margin: 0 10% 2%;
+    margin: 0 20% 2%;
 }
 
 .clearfix::after{
@@ -36,6 +36,10 @@ nav li a{
     text-decoration: none;
 }
 
+nav li a:hover{
+    text-decoration: underline;
+}
+
 .container-1{
     margin: 3% 0;
     height: 500px;
@@ -48,8 +52,16 @@ nav li a{
 }
 .text-container-1{
     position: absolute;
-    bottom: 70px;
-    margin-right: 50%;
+    bottom: 15%;
+    left: 5%;
+    margin-right: 45%;
+    color: white;
+}
+
+#titolo-container-1{
+    font-size: 29px;
+    
+
 }
 
 .testa{
