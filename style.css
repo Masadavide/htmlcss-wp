@@ -40,7 +40,7 @@ nav li a:hover{
     text-decoration: underline;
 }
 
-.container-1{
+.container1{
     margin: 3% 0;
     height: 500px;
     background-image: url("img/banner.jpg");
@@ -50,7 +50,7 @@ nav li a:hover{
     border-radius: 10px;
     position: relative;
 }
-.text-container-1{
+.text-container1{
     position: absolute;
     bottom: 15%;
     left: 5%;
@@ -58,11 +58,11 @@ nav li a:hover{
     color: white;
 }
 
-#titolo-container-1{
+#titolo-container1{
     font-size: 29px;
 }
 
-#titolo-container-2{
+#titolo-container2{
     font-size: 30px;
     font-weight: bold;
 }
@@ -77,25 +77,39 @@ nav li a:hover{
 }
 
 .col{
-    height: 300px;
+    height: 500px;
     float: left;
     background-color: lightblue;
 }
 
 .sinistra{
-    width: 24%;
-    margin: 1% 0;
+    width: 23%;
+    margin: 2% 0;
+}
 
+.immagine-container2{
+    height: 200px;
+    background-image: url(img/img-1.jpg);
+    background-position: center; 
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.titolo-didascalia{
+    font-weight: bold;
+    margin: 5% 0;
 }
 
 .centro{
     width: 50%;
-    margin: 1% 1%;
+    margin: 2%;
 }
 
 .destra{
-    width: 24%;
-    margin: 1% 0;
+    width: 23%;
+    margin: 2% 0;
 }
 
 .piede{
