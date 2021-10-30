@@ -50,6 +50,7 @@ nav li a:hover{
     border-radius: 10px;
     position: relative;
 }
+
 .text-container1{
     position: absolute;
     bottom: 15%;
@@ -60,6 +61,10 @@ nav li a:hover{
 
 #titolo-container1{
     font-size: 29px;
+}
+
+.testa{
+    margin-bottom: 20px;
 }
 
 #titolo-container2{
@@ -73,40 +78,14 @@ nav li a:hover{
     line-height: 15px;
 }
 
-.corpo{
-    background-color: dodgerblue;
-}
-
 .col{
     height: 500px;
     float: left;
-    background-color: lightblue;
 }
 
 .sinistra{
     width: 23%;
     margin: 2% 0;
-}
-
-.immagine-container2{
-    height: 150px;
-    background-position: center; 
-    border-radius: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#sx{
-    background-image: url(img/img-1.jpg);
-}
-
-#center{
-    background-image: url(img/banner-2.jpg);
-}
-
-.titolo-didascalia{
-    font-weight: bold;
-    margin: 10px 0;
 }
 
 .centro{
@@ -119,9 +98,42 @@ nav li a:hover{
     margin: 2% 0;
 }
 
+.immagine-container2{
+    height: 200px;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sx{
+    background-image: url(img/img-1.jpg);
+}
+
+#center{
+    background-image: url(img/banner-2.jpg);
+}
+
+#dx{
+    background-image: url(img/img-3.jpg);
+}
+
+.titolo-didascalia{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
 .piede{
-    height: 50px;
+   text-align: center;
+}
+
+span{
+    color: red;
+    font-size: 25px;
+}
+
+.opaco{
+    background-color: rgba(0,0,0,20%);
     width: 100%;
-    background-color: darkviolet;
-    margin-top: 2%;
+    height: 100%;
+    border-radius: 10px;
 }
