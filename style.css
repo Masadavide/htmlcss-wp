@@ -60,14 +60,16 @@ nav li a:hover{
 
 #titolo-container-1{
     font-size: 29px;
-    
-
 }
 
-.testa{
-    height: 100px;
-    background-color: lightblue;
-    
+#titolo-container-2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text{
+    color: silver;
+    font-size: 15px;
 }
 
 .corpo{
