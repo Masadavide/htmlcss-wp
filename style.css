@@ -70,6 +70,7 @@ nav li a:hover{
 .text{
     color: silver;
     font-size: 15px;
+    line-height: 15px;
 }
 
 .corpo{
@@ -88,18 +89,24 @@ nav li a:hover{
 }
 
 .immagine-container2{
-    height: 200px;
-    background-image: url(img/img-1.jpg);
+    height: 150px;
     background-position: center; 
     border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
+}
 
+#sx{
+    background-image: url(img/img-1.jpg);
+}
+
+#center{
+    background-image: url(img/banner-2.jpg);
 }
 
 .titolo-didascalia{
     font-weight: bold;
-    margin: 5% 0;
+    margin: 10px 0;
 }
 
 .centro{
