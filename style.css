@@ -49,6 +49,7 @@ nav li a:hover{
     background-position: center; 
     border-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .text-container1{
@@ -61,6 +62,10 @@ nav li a:hover{
 
 #titolo-container1{
     font-size: 29px;
+}
+
+.corpo{
+    overflow: hidden;
 }
 
 .testa{
